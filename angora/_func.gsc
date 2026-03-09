@@ -2848,10 +2848,6 @@ Menu() { // 0.5.8
     }
 }
 
-/#
-Bolt Movement - 0.6.0
-#/
-
 saveboltmovementpos() {
     x = int(self getpers("boltmovementcount"));
     if(x == 8)
