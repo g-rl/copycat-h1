@@ -43,5 +43,5 @@ FunctionCatcher() {
 
     if(self getpers("infeq") == "ON") self thread infeq();
 
-    SetSlowMotion(getdvarfloat("timescale"), getdvarfloat("timescale"), 0); /# Need to rewrite this cause it doesnt work like H1 #/
+    SetSlowMotion(getdvarfloat("timescale"), getdvarfloat("timescale"), 0);
 }
