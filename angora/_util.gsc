@@ -94,6 +94,9 @@ FixString()
 }
 
 OverflowFixInit()  {
+    if (isdefined(level.strings))
+        return;
+
     level.strings = [];
     level.overflowElem = createServerFontString("default", 1.5);
     level.overflowElem setSafeText("overflow");
